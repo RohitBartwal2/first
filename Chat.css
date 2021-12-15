@@ -1,0 +1,39 @@
+ li, a{
+     text-decoration: none;
+     list-style: none;
+ }
+ .padding{
+     padding: 0 100px;
+ }
+ .chat_arrow{
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #252F48;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+ }
+.chat_container-1{
+    background-color: #0E2036;
+}
+.chat_container-1-menu{
+    color: white;
+}
+.chat_arrow > i{
+    color: white;
+}
+/*chat_container-1-semi2*/
+.chat_container-1-semi2{
+    background-color:#E04E67;
+    border-radius: 25px;
+}
+.chat_container-1-semi2-profile-para1{
+    color: white;
+}
+.chat_container-1-semi2-profile-para2{
+    color: rgba(255,255,255,0.7);
+}
+.profile_link{
+    color: white
+}

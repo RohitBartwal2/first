@@ -1,0 +1,128 @@
+.contact{
+    position: relative;
+}
+.contact_banner{
+    background-image: url("/image/contact_banner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.about_container{
+    position: relative;
+    margin-left: 10rem;
+}
+.banner_heading{
+    font-size: 80px;
+    font-weight: 600;
+    margin-top:-20px;
+}
+.color{
+    color: #FF0062;
+}
+.line1{
+    width: 177px;
+    height: 8px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+}
+.line2{
+    width: 57px;
+    height: 8px;
+    background-color: #FF0062;
+    display: inline-block;
+    border-radius: 10px;
+}
+.line-container{
+ margin-top: -1.2rem;
+}
+.contact-heart_img{
+    position: absolute;
+    top: -9rem;
+    left: 23rem;
+}
+/* contact_container1 */
+.contact_container{
+    background-image: url("/image/main_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 150px;
+}
+.contact_container1{
+    border-radius: 10px;
+}
+.contact_container1-semi1{
+    padding: 4rem;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.contact_container1-semi1_para1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.circle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid black;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.circle2{
+    width: 45px;
+    height: 45px;
+    background-color: #FF0062;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.contact-social_icons > span > i{
+    color: white;
+    font-size: 18px;
+}
+.contact-social_icons {
+    margin-top: 4rem;
+}
+.contact_container1-semi2{
+    background-color: #FF0062;
+    padding: 4rem;
+    border-radius: 0px 10px 10px 0;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.contact_input{
+    border-radius: 11px;
+    background: #FF1E74;
+    height: 4rem;
+}
+.contact_input::placeholder{
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.contact_textarea{
+    border-radius: 11px;
+    background: #FF1E74;
+}
+.contact_textarea::placeholder{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.contact_btn{
+    width: 100%;
+    background-color: white;
+    font-size: 18px;
+    color: #FF1E74;
+    height: 4rem;
+    font-weight: 500;
+}
+.contact_btn:hover{
+    color: #FF1E74;;
+}
